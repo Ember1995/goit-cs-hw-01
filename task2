@@ -205,7 +205,6 @@ class Interpreter:
     def generic_visit(self, node):
         raise Exception(f'Немає методу visit_{type(node).__name__}')
 
-
 def main():
     while True:
         try:
